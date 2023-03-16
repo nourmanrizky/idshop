@@ -1,11 +1,17 @@
 
 import './App.css';
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello, React!</h1>
-    </div>
+    <> 
+        <Header></Header>
+        <main>
+          <h1>Welcome TO idshop</h1>
+        </main>
+        <Footer></Footer>
+    </>
   );
 }
 
